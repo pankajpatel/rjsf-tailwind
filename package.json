@@ -1,5 +1,5 @@
 {
-  "name": "@pankajpatel/rjsf-tailwind-monorepo",
+  "name": "rjsf-tailwind",
   "version": "0.0.1",
   "description": "",
   "private": true,
@@ -14,16 +14,6 @@
   "keywords": [],
   "author": "",
   "packageManager": "yarn@4.5.2",
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.6",
-    "@semantic-release/npm": "^11.0.2",
-    "@semantic-release/release-notes-generator": "^12.1.0",
-    "semantic-release": "^23.0.2",
-    "semantic-release-yarn": "^3.0.2"
-  },
   "volta": {
     "node": "20.18.1"
   }

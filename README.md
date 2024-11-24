@@ -121,18 +121,24 @@ const uiSchema = {
 
 ## Releases
 
-This package uses [semantic-release](https://github.com/semantic-release/semantic-release) for automated version management and package publishing. The version numbers follow [Semantic Versioning](https://semver.org/).
+This package follows [Semantic Versioning](https://semver.org/). To publish a new version:
 
-Releases are triggered automatically when commits are merged to the main branch:
-- Commit messages starting with `fix:` trigger a patch release (e.g., 1.0.1)
-- Commit messages starting with `feat:` trigger a minor release (e.g., 1.1.0)
-- Commit messages with `BREAKING CHANGE:` trigger a major release (e.g., 2.0.0)
+1. Create a new release on GitHub:
+   - Go to the repository's Releases page
+   - Click "Create a new release"
+   - Create a new tag in the format `x.y.z` (e.g., `1.0.0`)
+   - Add release notes describing the changes
+   - Publish the release
 
-Release branches:
-- `main` - Latest stable release
-- `next` - Next major version prerelease
-- `beta` - Beta releases
-- `*.x` - Maintenance releases
+2. The GitHub Action will automatically:
+   - Build the package
+   - Publish to NPM
+   - Deploy the demo site
+
+To create a release:
+- Major version (x.0.0): Breaking changes
+- Minor version (0.x.0): New features
+- Patch version (0.0.x): Bug fixes and patches
 
 ## License
 
