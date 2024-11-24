@@ -11,12 +11,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pankajpatel/rjsf-tailwind": "workspace:*",
     "@rjsf/core": "^5.23.1",
     "@rjsf/utils": "^5.23.1",
     "@rjsf/validator-ajv8": "^5.23.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "rjsf-tailwind": "workspace:*"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

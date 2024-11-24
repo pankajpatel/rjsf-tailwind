@@ -1,8 +1,8 @@
-import Form from "rjsf-tailwind";
+import Form from "@pankajpatel/rjsf-tailwind";
 import type { RJSFSchema } from "@rjsf/utils";
 import validator from "@rjsf/validator-ajv8";
 import "./App.css";
-import "rjsf-tailwind/styles.css";
+import "@pankajpatel/rjsf-tailwind/styles.css";
 
 const ctaSchema: RJSFSchema = {
   title: "CTA",
