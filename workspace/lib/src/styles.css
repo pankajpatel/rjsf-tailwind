@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities { */
+  .form-group {
+    @apply flex flex-col gap-4 w-full;
+  }
+
+/* } */
