@@ -126,7 +126,7 @@ const uiSchema = {
 };
 
 function App() {
-  const handleSubmit = ({ formData }) => {
+  const handleSubmit = ({ formData }: { formData?: unknown }) => {
     console.log("Form submitted:", formData);
   };
 
