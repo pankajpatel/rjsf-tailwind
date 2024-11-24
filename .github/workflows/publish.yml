@@ -70,9 +70,9 @@ jobs:
         run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
 
       - name: Update package version
-        run: cd workspace/lib && yarn version ${{ steps.get_version.outputs.VERSION }} --no-git-tag-version
+        run: cd workspace/lib && npm version ${{ steps.get_version.outputs.VERSION }} --no-git-tag-version
 
       - name: Publish package
-        run: cd workspace/lib && yarn npm publish --access public
+        run: cd workspace/lib && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
