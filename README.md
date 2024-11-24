@@ -48,6 +48,20 @@ function App() {
 - 📱 Responsive design
 - 🔧 Easy to extend and customize
 
+## Demo
+
+Visit our live demo site at [https://pankajpatel.github.io/rjsf-tailwind](https://pankajpatel.github.io/rjsf-tailwind) to see the theme in action.
+
+The demo is automatically deployed when:
+1. A new release is published
+2. Manual deployment is triggered via GitHub Actions
+
+To run the demo locally:
+```bash
+yarn install
+yarn dev
+```
+
 ## Customization
 
 ### Theme Customization
