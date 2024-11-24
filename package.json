@@ -1,0 +1,16 @@
+{
+  "name": "@pankajpatel/rjsf-tailwind-monorepo",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "workspace/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace @pankajpatel/rjsf-tailwind run dev && yarn workspace @pankajpatel/rjsf-tailwind-demo run dev",
+    "build": "yarn workspace @pankajpatel/rjsf-tailwind run build && yarn workspace @pankajpatel/rjsf-tailwind-demo run build"
+  },
+  "keywords": [],
+  "author": "",
+  "packageManager": "yarn@4.5.2"
+}
