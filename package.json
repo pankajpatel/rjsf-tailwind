@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "dev": "yarn workspace @pankajpatel/rjsf-tailwind run dev && yarn workspace @pankajpatel/rjsf-tailwind-demo run dev",
-    "build": "yarn workspace @pankajpatel/rjsf-tailwind run build && yarn workspace @pankajpatel/rjsf-tailwind-demo run build"
+    "build:demo": "yarn run build && yarn workspace @pankajpatel/rjsf-tailwind-demo run build",
+    "build": "yarn workspace @pankajpatel/rjsf-tailwind run build"
   },
   "keywords": [],
   "author": "",
