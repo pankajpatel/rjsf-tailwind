@@ -2,12 +2,6 @@ name: Publish Package to NPM
 on:
   release:
     types: [created]
-  push:
-    branches:
-      - main
-      - next
-      - beta
-      - "*.x" # maintenance releases
 
 permissions:
   contents: write # to be able to publish a GitHub release
