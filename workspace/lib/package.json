@@ -1,6 +1,6 @@
 {
   "name": "@pankajpatel/rjsf-tailwind",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "TypeScript React Library",
   "type": "module",
   "main": "./dist/index.js",
