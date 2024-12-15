@@ -48,7 +48,7 @@ export default function BaseInputTemplate<
     onFocus(id, value);
 
   const inputClass = clsx(
-    "block p-2.5 w-full text-sm text-gray-900 rounded-lg bg-transparent border-0 border-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
+    "block p-2.5 w-full text-sm text-gray-900 rounded-lg bg-transparent border-1 border-gray-300 appearance-none dark:text-white dark:bg-gray-700 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer",
     rawErrors.length > 0 ? "border-red-500" : "border-muted-foreground"
   );
 

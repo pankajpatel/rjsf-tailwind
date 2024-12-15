@@ -131,7 +131,7 @@ function App() {
   };
 
   return (
-    <div className="">
+    <div className="px-16 py-4 mx-auto max-w-7xl">
       <Form
         schema={mainFormSchema}
         validator={validator}
